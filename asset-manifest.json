@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AltheraAtelier/static/css/main.c495769c.css",
+    "main.js": "/AltheraAtelier/static/js/main.ddfda61c.js",
+    "static/media/logo.png": "/AltheraAtelier/static/media/logo.134588818e6aa0dace04.png",
+    "static/media/banner.jpg": "/AltheraAtelier/static/media/banner.2363e27c00acb1b56034.jpg",
+    "static/media/casa-moderna.jpg": "/AltheraAtelier/static/media/casa-moderna.e73d3c2b28a83eec2320.jpg",
+    "index.html": "/AltheraAtelier/index.html",
+    "main.c495769c.css.map": "/AltheraAtelier/static/css/main.c495769c.css.map",
+    "main.ddfda61c.js.map": "/AltheraAtelier/static/js/main.ddfda61c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c495769c.css",
+    "static/js/main.ddfda61c.js"
+  ]
+}
