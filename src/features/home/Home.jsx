@@ -1,4 +1,7 @@
 import "./home.css";
+import casaModerna from "../portfolio/casa-moderna.jpg";
+import escritorio from "../portfolio/escritorio.jpeg";
+import loft from "../portfolio/loft.jpg";
 
 export default function Home() {
   return (
@@ -21,7 +24,7 @@ export default function Home() {
       <section className="features">
         <div className="feature-card">
           <img
-            src="/images/icons/experience.png"
+            src={process.env.PUBLIC_URL + "/images/icons/experience.png"}
             alt="Experiência"
             className="feature-icon"
           />
@@ -34,7 +37,7 @@ export default function Home() {
 
         <div className="feature-card">
           <img
-            src="/images/icons/quality.png"
+            src={process.env.PUBLIC_URL + "/images/icons/quality.png"}
             alt="Qualidade"
             className="feature-icon"
           />
@@ -47,7 +50,7 @@ export default function Home() {
 
         <div className="feature-card">
           <img
-            src="/images/icons/support.png"
+            src={process.env.PUBLIC_URL + "/images/icons/support.png"}
             alt="Suporte"
             className="feature-icon"
           />
@@ -63,22 +66,22 @@ export default function Home() {
         <h2>Projetos em Destaque</h2>
         <div className="portfolio-grid">
           <div className="portfolio-card">
-            <img src="/images/portfolio/casa-moderna.jpg" alt="Projeto 1" />
+            {/* ✅ Agora usando a variável importada */}
+            <img src={casaModerna} alt="Residência Moderna" />
             <h3>Residência Moderna</h3>
           </div>
 
           <div className="portfolio-card">
-            <img src="/images/portfolio/escritorio.jpeg" alt="Projeto 2" />
+            <img src={escritorio} alt="Espaço Corporativo" />
             <h3>Espaço Corporativo</h3>
           </div>
 
           <div className="portfolio-card">
-            <img src="/images/portfolio/loft.jpg" alt="Projeto 3" />
-            <h3>Loft Insdustrial</h3>
+            <img src={loft} alt="Loft Industrial" />
+            <h3>Loft Industrial</h3>
           </div>
         </div>
       </section>
-
       {/* ===== CALL TO ACTION ===== */}
       <section className="cta-section">
         <h2>Pronto para transformar seu projeto em realidade?</h2>

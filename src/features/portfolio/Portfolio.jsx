@@ -1,4 +1,7 @@
 import "./portfolio.css";
+import casaModerna from "./casa-moderna.jpg";
+import escritorio from "./escritorio.jpeg";
+import loft from "./loft.jpg";
 
 export default function Portfolio() {
   const projetos = [
@@ -6,19 +9,19 @@ export default function Portfolio() {
     id: 1,
     nome: "Casa Moderna",
     descricao: "Projeto residencial contemporâneo.",
-    imagem: "/images/portfolio/casa-moderna.jpg"
+    imagem: casaModerna
   },
   {
     id: 2,
     nome: "Escritório Minimalista",
     descricao: "Espaço corporativo funcional e elegante.",
-    imagem: "/images/portfolio/escritorio.jpeg"
+    imagem: escritorio
   },
   {
     id: 3,
     nome: "Loft Industrial",
     descricao: "Ambiente urbano e sofisticado.",
-    imagem: "/images/portfolio/loft.jpg"
+    imagem: loft
   }
 ];
 
