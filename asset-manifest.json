@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AltheraAtelier/static/css/main.c495769c.css",
-    "main.js": "/AltheraAtelier/static/js/main.66adc458.js",
+    "main.css": "/AltheraAtelier/static/css/main.2f5324bd.css",
+    "main.js": "/AltheraAtelier/static/js/main.f949feaf.js",
     "static/media/logo.png": "/AltheraAtelier/static/media/logo.134588818e6aa0dace04.png",
     "static/media/loft.jpg": "/AltheraAtelier/static/media/loft.c4caad99009eb8fedb8c.jpg",
     "static/media/banner.jpg": "/AltheraAtelier/static/media/banner.2363e27c00acb1b56034.jpg",
     "static/media/escritorio.jpeg": "/AltheraAtelier/static/media/escritorio.05711f36b1bb7df9cf2d.jpeg",
     "static/media/casa-moderna.jpg": "/AltheraAtelier/static/media/casa-moderna.e73d3c2b28a83eec2320.jpg",
     "index.html": "/AltheraAtelier/index.html",
-    "main.c495769c.css.map": "/AltheraAtelier/static/css/main.c495769c.css.map",
-    "main.66adc458.js.map": "/AltheraAtelier/static/js/main.66adc458.js.map"
+    "main.2f5324bd.css.map": "/AltheraAtelier/static/css/main.2f5324bd.css.map",
+    "main.f949feaf.js.map": "/AltheraAtelier/static/js/main.f949feaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.c495769c.css",
-    "static/js/main.66adc458.js"
+    "static/css/main.2f5324bd.css",
+    "static/js/main.f949feaf.js"
   ]
 }
