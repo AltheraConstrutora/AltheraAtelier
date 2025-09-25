@@ -1,15 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./features/header/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./features/home/Home";
-import Portfolio from "./features/portfolio/Portfolio";
 import Contato from "./features/contato/Contato";
-import Footer from "./features/footer/Footer";
+import Portfolio from "./features/portfolio/Portfolio";
 import Sobre from "./features/sobre/Sobre";
-import "./global.css";
+import Header from "./features/header/Header";
+import Footer from "./features/footer/Footer";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/AltheraAtelier">
       <Header />
       <main>
         <Routes>
@@ -20,6 +19,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
