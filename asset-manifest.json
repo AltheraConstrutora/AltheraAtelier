@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AltheraAtelier/static/css/main.2f5324bd.css",
+    "main.css": "/AltheraAtelier/static/css/main.8ca9b6b3.css",
     "main.js": "/AltheraAtelier/static/js/main.f949feaf.js",
     "static/media/logo.png": "/AltheraAtelier/static/media/logo.134588818e6aa0dace04.png",
     "static/media/loft.jpg": "/AltheraAtelier/static/media/loft.c4caad99009eb8fedb8c.jpg",
@@ -8,11 +8,11 @@
     "static/media/escritorio.jpeg": "/AltheraAtelier/static/media/escritorio.05711f36b1bb7df9cf2d.jpeg",
     "static/media/casa-moderna.jpg": "/AltheraAtelier/static/media/casa-moderna.e73d3c2b28a83eec2320.jpg",
     "index.html": "/AltheraAtelier/index.html",
-    "main.2f5324bd.css.map": "/AltheraAtelier/static/css/main.2f5324bd.css.map",
+    "main.8ca9b6b3.css.map": "/AltheraAtelier/static/css/main.8ca9b6b3.css.map",
     "main.f949feaf.js.map": "/AltheraAtelier/static/js/main.f949feaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f5324bd.css",
+    "static/css/main.8ca9b6b3.css",
     "static/js/main.f949feaf.js"
   ]
 }
