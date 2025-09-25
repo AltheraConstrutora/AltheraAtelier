@@ -1,0 +1,123 @@
+.sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: #92AC86;
+  color: #0D303B;
+}
+
+/* HERO */
+.sobre-hero {
+  background: url("/src/features/sobre/casa-moderna.jpg") center/cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.sobre-hero-content {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.sobre-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-hero p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* HISTÓRIA */
+.sobre-historia {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.sobre-historia h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-historia p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* VALORES */
+.sobre-valores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.valor-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.valor-card h3 {
+  margin-bottom: 1rem;
+  color: #0D303B;
+}
+
+.valor-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* CTA */
+.sobre-cta {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+}
+
+.sobre-cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.sobre-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #0D303B;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+.cta-btn:hover {
+  background: #DDB56D;
+}
+
+.significado {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0D303B;
+}

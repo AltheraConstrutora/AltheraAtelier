@@ -1,0 +1,64 @@
+.header {
+  background-color: #0D303B;
+  color: #DDB56D;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px; /* altura fixa do "recorte" */
+  width: 200px; /* largura fixa para controlar o crop */
+  overflow: hidden; /* 🔑 esconde o que ultrapassa */
+  border-radius: 5px; /* opcional: arredonda um pouco */
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* garante preenchimento total */
+  transform: scale(1.0); /* 🔥 zoom no centro */
+  transform-origin: center; /* 🔑 centraliza o zoom */
+}
+  
+.nav {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.nav a {
+  color: #DDB56D;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav-link.emphasis {
+  font-weight: 700;
+  font-size: 1.15rem; /* ligeiramente maior que os outros */
+  color: #DDB56D;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link.emphasis:hover {
+  color: white;
+  border-color: white;
+}

@@ -1,0 +1,44 @@
+/* src/features/contato/contato.css */
+.contato {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contato h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contato-form {
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contato-form textarea { min-height: 140px; resize: vertical; }
+
+.contato-form button {
+  background: #0D303B;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status { text-align:center; margin-top:1rem; font-weight:600; }
+.status.success { color: green; }
+.status.error { color: #b00020; }
